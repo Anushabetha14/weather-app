@@ -1,69 +1,121 @@
 <!DOCTYPE html>
-<!-- Coding By CodingNepal - www.codingnepalweb.com -->
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Major project</title>
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <h1>Weather Report </h1>
-    <div class="container">
-      <div class="weather-input">
-        <h3>Enter a City Name</h3>
-        <input class="city-input" type="text" placeholder="E.g., New York, London, Tokyo">
-        <button class="search-btn">Search</button>
-        <div class="separator"></div>
-        <button class="location-btn">Use Current Location</button>
+<head>
+  <meta charset="UTF-8">
+
+  <!-- SEO Title -->
+  <title>Weather Forecast App | Live Weather & 6-Day Forecast</title>
+
+  <!-- SEO Meta Description -->
+  <meta name="description" content="Check live weather updates and 6-day weather forecast for any city. Get temperature, wind speed and humidity instantly using our weather forecast app.">
+
+  <!-- SEO Keywords -->
+  <meta name="keywords" content="weather app, live weather, weather forecast, 6 day weather forecast, city weather">
+
+  <!-- Mobile Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- JS -->
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Live Weather Forecast Application</h1>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+
+    <!-- Intro Text for SEO -->
+    <section>
+      <h2>Check Current Weather & 6-Day Forecast</h2>
+      <p>
+        This weather forecast application allows users to check real-time weather updates
+        for any city. It provides current temperature, wind speed, humidity, and a 6-day
+        weather forecast. Users can also get weather details using their current location.
+      </p>
+    </section>
+
+    <!-- Weather Input -->
+    <section class="weather-input">
+      <h3>Enter a City Name</h3>
+      <input class="city-input" type="text" placeholder="Enter the name of the city">
+      <button class="search-btn">Search</button>
+
+      <div class="separator"></div>
+
+      <button class="location-btn">Use Current Location</button>
+    </section>
+
+    <!-- Weather Data -->
+    <section class="weather-data">
+
+      <!-- Current Weather -->
+      <div class="current-weather">
+        <div class="details">
+          <h2>_______ ( ______ )</h2>
+          <h6>Temperature: __°C</h6>
+          <h6>Wind: __ M/S</h6>
+          <h6>Humidity: __%</h6>
+        </div>
       </div>
-      <div class="weather-data">
-        <div class="current-weather">
-          <div class="details">
-            <h2>_______ ( ______ )</h2>
-            <h6>Temperature: __°C</h6>
+
+      <!-- Forecast -->
+      <div class="days-forecast">
+        <h2>6-Day Weather Forecast</h2>
+        <ul class="weather-cards">
+
+          <li class="card">
+            <h3>( ______ )</h3>
+            <h6>Temp: __°C</h6>
             <h6>Wind: __ M/S</h6>
             <h6>Humidity: __%</h6>
-          </div>
-        </div>
-        <div class="days-forecast">
-          <h2>6-Days weather Forecast</h2>
-          <ul class="weather-cards">
-            <li class="card">
-              <h3>( ______ )</h3>
-              <h6>Temp: __C</h6>
-              <h6>Wind: __ M/S</h6>
-              <h6>Humidity: __%</h6>
-            </li>
-            <li class="card">
-              <h3>( ______ )</h3>
-              <h6>Temp: __C</h6>
-              <h6>Wind: __ M/S</h6>
-              <h6>Humidity: __%</h6>
-            </li>
-            <li class="card">
-              <h3>( ______ )</h3>
-              <h6>Temp: __C</h6>
-              <h6>Wind: __ M/S</h6>
-              <h6>Humidity: __%</h6>
-            </li>
-            <li class="card">
-              <h3>( ______ )</h3>
-              <h6>Temp: __C</h6>
-              <h6>Wind: __ M/S</h6>
-              <h6>Humidity: __%</h6>
-            </li>
-            <li class="card">
-              <h3>( ______ )</h3>
-              <h6>Temp: __C</h6>
-              <h6>Wind: __ M/S</h6>
-              <h6>Humidity: __%</h6>
-            </li>
-          </ul>
-        </div>
+          </li>
+
+          <li class="card">
+            <h3>( ______ )</h3>
+            <h6>Temp: __°C</h6>
+            <h6>Wind: __ M/S</h6>
+            <h6>Humidity: __%</h6>
+          </li>
+
+          <li class="card">
+            <h3>( ______ )</h3>
+            <h6>Temp: __°C</h6>
+            <h6>Wind: __ M/S</h6>
+            <h6>Humidity: __%</h6>
+          </li>
+
+          <li class="card">
+            <h3>( ______ )</h3>
+            <h6>Temp: __°C</h6>
+            <h6>Wind: __ M/S</h6>
+            <h6>Humidity: __%</h6>
+          </li>
+
+          <li class="card">
+            <h3>( ______ )</h3>
+            <h6>Temp: __°C</h6>
+            <h6>Wind: __ M/S</h6>
+            <h6>Humidity: __%</h6>
+          </li>
+
+        </ul>
       </div>
-    </div>
-    
-  </body>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Live Weather Forecast App</p>
+  </footer>
+
+</body>
 </html>
